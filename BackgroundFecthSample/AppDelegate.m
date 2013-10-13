@@ -21,7 +21,7 @@
     // 通知を作成する
     UILocalNotification *notification = [[UILocalNotification alloc] init];
     
-    notification.fireDate = [[NSDate date] dateByAddingTimeInterval:1]; // 10分後に通知
+    notification.fireDate = [[NSDate date] dateByAddingTimeInterval:1];
     notification.timeZone = [NSTimeZone defaultTimeZone];
     notification.alertBody = @"BackgroundFetch";
     notification.soundName = UILocalNotificationDefaultSoundName;
